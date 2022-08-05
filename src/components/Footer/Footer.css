@@ -1,17 +1,16 @@
-.footerTable {
-	text-align: right;
-	margin: 0 0 0 auto;
-}
+/* footerとdivを用いてflexboxでいい感じにやる */
+footer {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
 
-.footerTable a {
-	color: #333;
+	background-color: #f5f5f5;
+	padding: 20px;
 }
-
-.footerTable a:hover {
-	color: rgb(160, 159, 159);
-}
-
-.footerDiv {
-	text-align: right;
-	margin: 0 10% 0 auto;
+.footer div {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	background-color: #f5f5f5;
+	padding: 20px;
 }
