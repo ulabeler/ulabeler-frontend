@@ -14,6 +14,6 @@ jobs:
         with:
           node-version: 18.x
       - name: ci
-        run: cd packages/client && yarn install --immutable --immutable-cache --check-cache
+        run: yarn install --immutable --immutable-cache --check-cache
       - name: ESLint
-        run: cd packages/client && yarn lint
+        run: yarn lint
