@@ -2,10 +2,12 @@ import {css} from '@emotion/react';
 import {faMagnifyingGlass} from '@fortawesome/free-solid-svg-icons';
 import {FontAwesomeIcon} from '@fortawesome/react-fontawesome';
 import './Header.css';
+import style from './style';
+
 export default () => {
   return (
-    <header className="header">
-      <div className="logo">
+    <header css={style.header}>
+      <div css={style.logo}>
         <h1><a href="/"><img src="images/logo.png" alt="ロゴ" /></a></h1>
       </div>
       <div className="headernakami">
