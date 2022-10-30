@@ -15,7 +15,7 @@
 		"@fortawesome/fontawesome-svg-core": "6.2.0",
 		"@fortawesome/free-solid-svg-icons": "6.2.0",
 		"@fortawesome/react-fontawesome": "0.2.0",
-		"@types/node": "18.11.7",
+		"@types/node": "18.11.8",
 		"emotion-reset": "3.0.1",
 		"eslint": "8.26.0",
 		"react": "18.2.0",
